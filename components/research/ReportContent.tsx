@@ -164,7 +164,7 @@ export default function ReportContent({ data }: ReportContentProps) {
                         <ExternalLink className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
                       </a>
                     ) : (
-                      <span style={{ wordBreak: "break-words" }}>{source}</span>
+                      <span style={{ wordBreak: "break-word" }}>{source}</span>
                     )}
                   </li>
                 );
